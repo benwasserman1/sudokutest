@@ -1187,9 +1187,9 @@ void* checkHorizontalsReverse(void *status5)
   bool error = false;
   int i;
   int j;
-  for (i = 7; i >= 0; i--)
+  for (i = 7; i > 0; i--)
   {
-    for (j = 7; j >= 0; j--)
+    for (j = 7; j > 0; j--)
     {
       while (error == false)
       {

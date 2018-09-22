@@ -1187,9 +1187,10 @@ void* checkHorizontalsReverse(void *status5)
   bool error = false;
   int i;
   int j;
-  for (i = 7; i > 0; i--)
+  // Needed to change to greater than
+  for (i = 8; i > 0; i--)
   {
-    for (j = 7; j > 0; j--)
+    for (j = 8; j > 0; j--)
     {
       while (error == false)
       {
@@ -1320,9 +1321,10 @@ void* checkVerticalsReverse(void *status6)
   bool error = false;
   int i;
   int j;
-  for (j = 8; j >= 0; --j)
+  // Needed to change to greater than 
+  for (j = 8; j > 0; --j)
   {
-    for (i = 8; i >= 0; --i)
+    for (i = 8; i > 0; --i)
     {
       while (error == false)
       {
